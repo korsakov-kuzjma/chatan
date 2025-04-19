@@ -1,0 +1,4 @@
+2025/04/19 21:52:07 Failed to load config: yaml: unmarshal errors:
+  line 3: cannot unmarshal !!str `YOUR_CH...` into int64
+  line 4: cannot unmarshal !!str `YOUR_AD...` into int64
+2025/04/19 21:55:02 Starting bot...

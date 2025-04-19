@@ -1,0 +1,15 @@
+telegram:
+    token: 7544253497:AAGESFD-mIqTsEsxZoleHTNfvHFevt2m2Yk
+    chat_id: -1004652326783
+    admin_ids:
+        - 640059635
+meeting:
+    schedule:
+        - day: Tuesday
+          time: "19:00"
+    invitation_text: 'Дорогой друг! Встречаемся сегодня в {время}. Ссылка: {ссылка}'
+    reminder_before: 1h0m0s
+    stream_link: https://t.me/+NmKWTLETwbthZWUy
+modules:
+    - statistics
+    - questionnaire
