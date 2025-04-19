@@ -1,0 +1,16 @@
+telegram:
+  token: "YOUR_TELEGRAM_BOT_TOKEN"
+  chat_id: YOUR_CHAT_ID
+  admin_ids: [YOUR_ADMIN_ID]
+
+meeting:
+  schedule:
+    - day: "Tuesday"
+      time: "19:00"
+  invitation_text: "Дорогой друг! Встречаемся сегодня в {время}. Ссылка: {ссылка}"
+  reminder_before: 1h
+  stream_link: ""
+
+modules:
+  - "statistics"
+  - "questionnaire"
